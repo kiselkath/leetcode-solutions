@@ -2,11 +2,11 @@ package org.elisys;
 
 import java.util.HashSet;
 
-public class longestSubsring {
+public class LongestSubstring {
     public static void main(String[] args) {
-        System.out.println(findLongestSubsring("abcdbfg"));
+        System.out.println(findLongestSubstring("abcdbfg"));
     }
-    public static  int findLongestSubsring(String string){
+    public static  int findLongestSubstring(String string){
         HashSet<Character> chars = new HashSet<>();
         int maxLength = 0;
         int left =0;
